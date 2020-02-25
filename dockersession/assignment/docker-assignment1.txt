@@ -1,0 +1,5 @@
+create hello world in any language
+create docker file
+and run it
+or use environment variable
+best practice to reduce image file

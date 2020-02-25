@@ -1,0 +1,14 @@
+1.docker ps
+2.run 2 instance of mysql
+3.create table
+4.docker stop containerid
+5.docker start containerid
+6.docker rm -f containerid(remove)
+7.after remove docker image check all data is present.if not present then google it
+
+Docker run command:
+docker run -d -p 3333:3306 -e MYSQL_USER=root -e MYSQL_ROOT_PASSWORD=rukhsar --name mysqldb  mysql:5.6.45 
+mysqladmin -u root password root
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'root'; 
+mysqladmin -u root password rukhsar
+
